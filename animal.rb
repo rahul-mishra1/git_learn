@@ -1,5 +1,9 @@
 class Animal
 
+  def elephant
+    puts "Hello I am cat"
+  end
+
   def cat
     puts "Hello I am cat"
   end
@@ -12,6 +16,8 @@ class Animal
       dog
     elsif animal_name == 'cat'
       cat
+    elsif animal_name = 'elephant'
+      elephant
     else
       puts "Hello I am Animal"
     end
